@@ -1,0 +1,19 @@
+{
+  "name": "@echoclip/adapter-dte-local",
+  "version": "0.1.0",
+  "description": "EchoClip adapter for Deep Tree Echo cognitive agents (echo-adventure + echo.kern)",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}

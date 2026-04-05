@@ -1,0 +1,25 @@
+{
+  "name": "echoclip",
+  "version": "0.1.0",
+  "description": "Paperclip control plane fused with the Deep Tree Echo cognitive architecture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "start": "node scripts/start.js",
+    "bridge": "node packages/adapters/dte-local/src/server/runtime-bridge.ts"
+  },
+  "workspaces": [
+    "packages/adapters/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rzonedevops/echoclip.git"
+  },
+  "license": "CC-BY-SA-4.0"
+}
